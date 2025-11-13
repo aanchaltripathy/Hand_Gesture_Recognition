@@ -29,7 +29,7 @@ Camera Input → MediaPipe Hand Landmarks → Feature Extraction → CNN Model �
 
 ## 📊 Dataset
 - **Source:** Custom dataset created from webcam captures  
-- **Gestures:** Peace ✌️, Thumbs Up 👍, Stop ✋ (add more if applicable)  
+- **Gestures:** Peace ✌️, Thumbs Up 👍, Stop ✋, etc
 - **Preprocessing:**  
   - Extracted 21 landmarks using MediaPipe  
   - Normalized (x, y) coordinates  
