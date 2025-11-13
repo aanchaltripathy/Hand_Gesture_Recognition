@@ -52,8 +52,7 @@ Camera Input → MediaPipe Hand Landmarks → Feature Extraction → CNN Model �
 
 
 📈 *Accuracy/loss curves*
-
----
+![Accuracy Curves](demo/screenshots/Screenshot%202025-11-13%20at%204.10.36%E2%80%AFPM.png)---
 
 ## 🧾 Results
 - Model correctly classifies static gestures in real time  
@@ -63,6 +62,7 @@ Camera Input → MediaPipe Hand Landmarks → Feature Extraction → CNN Model �
 
 
 📊 *Confusion matrix*
+![Confusion Matrix](demo/screenshots/Screenshot%202025-11-13%20at%204.12.30%E2%80%AFPM.png)
 
 ---
 
