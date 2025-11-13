@@ -65,9 +65,18 @@ Camera Input → MediaPipe Hand Landmarks → Feature Extraction → CNN Model �
 ![Confusion Matrix](demo/screenshots/Screenshot%202025-11-13%20at%204.12.30%E2%80%AFPM.png)
 
 ---
+## 📰 Read My Blog
 
+### Curious about how I trained, tested, and debugged the model?
+#### Check out my full write-up on Medium:
+
+👉 [My First Try at Real-Time Hand Gesture Recognition — Lessons, Bugs, and How I Fixed Them](https://medium.com/@aanchaltripathy24/my-first-try-at-real-time-hand-gesture-recognition-lessons-bugs-and-how-i-fixed-them-fef059f7ffb2)
+
+
+
+---
 ## 🎥 Demo
-🎬 Watch the full demo here: [**YouTube Demo (Add link)**]  
+🎬 Watch the full demo here: [**YouTube Demo (https://youtu.be/veyhzNH6hwc)**]  
 Or run it locally following the steps below 👇  
 
 ---
