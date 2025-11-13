@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🖐️ Hand Gesture Recognition</h1>
+        <div class="video-container">
+            <video id="webcam" autoplay playsinline></video>
+        </div>
+        <div class="gesture-display">
+            <h2>Detected Gesture:</h2>
+            <p id="gesture">None</p>
+        </div>
+        <button id="start-btn">Start Recognition</button>
+    </div>
+
+    <script>
+        const video = document.getElementById('webcam');
+        const gestureText = document.getElementById('gesture');
+        const startBtn = document.getElementById('start-btn');
+
+        // Access webcam
+        async function initCamera() {
+            const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+            video.srcObject = stream;
+        }
+
+        startBtn.addEventListener('click', () => {
+            initCamera();
+            // You can add WebSocket or API calls to your backend here
+            // to send frames for prediction and update gestureText.innerText
+        });
+    </script>
+</body>
+</html>
