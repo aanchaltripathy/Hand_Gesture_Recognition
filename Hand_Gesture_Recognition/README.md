@@ -48,12 +48,10 @@ Camera Input → MediaPipe Hand Landmarks → Feature Extraction → CNN Model �
 
 | Metric | Value |
 |:-------|:-------:|
-| Validation Accuracy | ~95% |
-| Precision | ~93% |
-| Recall | ~94% |
-| F1-Score | ~93.5% |
+| Validation Accuracy | ~90% |
 
-📈 *(Add screenshot of accuracy/loss curves from `notebook/experiments.ipynb`)*
+
+📈 *Accuracy/loss curves*
 
 ---
 
@@ -64,7 +62,7 @@ Camera Input → MediaPipe Hand Landmarks → Feature Extraction → CNN Model �
 
 
 
-📊 *(Add confusion matrix or sample result images)*
+📊 *Confusion matrix*
 
 ---
 
